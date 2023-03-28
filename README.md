@@ -1,4 +1,4 @@
-# Facial Recognition Web Login System
+# Django CRM with Facial Recognition Login System
 A Facial Recognition (FR) Login System for a web application. 
 
 ## Project Description
