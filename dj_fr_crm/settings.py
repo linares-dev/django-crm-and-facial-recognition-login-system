@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'CRM_DB',
-        'USER': 'root',
-        'PASSWORD': '88PHP88!00',
+        'USER': 'ssjcoding',
+        'PASSWORD': '12345',
         'HOST': '127.0.0.1',
         'PORT': '3306'
     }
