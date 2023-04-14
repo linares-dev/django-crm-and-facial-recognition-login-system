@@ -101,3 +101,6 @@ def update_record(request, pk):
         messages.success(request, "You Must Be Logged In...")
         return redirect('home')
 
+
+def login_facial_recognition(request):
+    return render(request, 'website/login_fr.html', {})

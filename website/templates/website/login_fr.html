@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!--    Javascript facial recognition api -->
+<script src="{% static './js/face-api.min.js' %}" defer></script>
+<script src="{% static './js/util-fr.js' %}" defer></script>
+
+<h1> Login with facial recognition</h1>
+<p> You must have a profile image already associated with your account in order to use the Facial Recognition login method.</p>
+<p>Please login with traditional credentials and upload an profile image</p>
+<div id="video-canvas-container">
+    <div id="video-canvas"></div>
+    <video id="video" width="630" height="600" autoplay></video>
+</div>
+{% endblock %}

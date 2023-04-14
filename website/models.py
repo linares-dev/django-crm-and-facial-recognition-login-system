@@ -12,6 +12,7 @@ class Record(models.Model):
     city = models.CharField(max_length=50)
     province = models.CharField(max_length=50)
     postal_code = models.CharField(max_length=6)
+    profile_image = models.ImageField(upload_to='images', null=True)  # images stored in src/media/images
 
     def __str__(self):
         # to string object
